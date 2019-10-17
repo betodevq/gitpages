@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Neucha&display=swap" rel="stylesheet">
+    <title>GitHub Pages Tutorial!</title>
+</head>
+<body>
+    <div class="section">
+        <h1 class="title">Descargar Github</h1>
+        <a  class="background-box" target="_blank" href="https://git-scm.com/">Descargar Git y Git Bash</a>
+    </div>
+    <div class="section">
+        <h1 class="title">Nuevo repositorio</h1>
+        <div class="command">
+            <p class="normal-text">Abre la terminal en el directorio del proyecto y usa</p>
+            <p class="background-box">git init</p>
+            <p class="normal-text">para crear un nuevo repositorio de git.</p>
+        </div>
+    </div>
+    <div class="section">
+        <h1 class="title">Agregar archivos y hacer commit</h1>
+        <p class="normal-text">Para registrar los cambios hechos puedes usar:</p>
+        <p class="background-box">git add &ltarchivo&gt</p>
+        <p class="normal-text">o</p>
+        <p class="background-box">git add .</p>
+        <p class="normal-text">Luego, para hacer commit de estos cambios se usa</p>
+        <p class="background-box">git commit -m "Mensaje"</p>
+    </div>
+    <div class="section">
+        <h1 class="title">Conectar el repositorio a GitHub</h1>
+        <p class="normal-text">para conectar el repositorio local con GitHub se usa el comando</p>
+        <p class="background-box">git remote add origin &ltserver&gt</p>
+        <p class="normal-text">en &ltserver&gt va a ir el link del repositorio, ejemplo:</p>
+        <span class="background-box small-box">https://github.com/usuario/repositorio.git</span>
+    </div>
+    <div class="section">
+        <h1 class="title">Enviar cambios al repositorio remoto</h1>
+        <p class="normal-text">Para finalmente subir todos los cambios al repositorio se escribe</p>
+        <p class="background-box">git push origin master</p>
+        <p class="normal-text">Este comando se utiliza cada vez que quieras actualizar cambios hechos y "commiteados" el repositorio en GitHub</p>
+    </div>
+    <div class="section">
+        <h1 class="title">Subir el proyeto a GitHub Pages</h1>
+        <p class="normal-text">Una vez subido el proyecto, en la página del repositorio:</p>
+        <ol>
+            <li class="normal-text">Ir a <strong>settings</strong></li>
+            <li class="normal-text">Bajar la página y buscar la sección <strong>GitHub Pages</strong></li>
+            <li class="normal-text">En la sección <strong>Source</strong> elegir: <strong>master branch</strong></li>
+        </ol>
+    </p>
+    <p class="normal-text">Ahora GitHub va a generar un link parecido a este:</p>
+    <p class="background-box">https://usuario.github.io/repositorio/</p>
+    <p class="normal-text">El cual va a ser el enlace directo a tu página</p>
+    </div>
+</body>
+</html>
